@@ -28,7 +28,7 @@ namespace OperatorExercise
             {
                 Console.WriteLine($" 17/4 is  {quotient} and remainder is  {remainder}");
             }
-            // this allpws user to enter any number to calculate area
+            // this allows user to enter any number to calculate area
             Console.WriteLine("Please enter the radius of the circle");
             double realRadius;
             var radius = double.TryParse(Console.ReadLine(), out realRadius);
